@@ -1,0 +1,17 @@
+{
+  "name": "emu",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {
+    "@vitest/coverage-v8": "2.1.6",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.7.2",
+    "vitest": "^2.1.6"
+  },
+  "scripts": {
+    "run-main": "ts-node src/main.ts",
+    "test": "vitest"
+  }
+}
